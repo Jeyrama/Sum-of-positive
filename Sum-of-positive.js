@@ -19,3 +19,4 @@ function positiveSum(arr) {
 function positiveSum(arr) {
   return arr.reduce((a,b)=> a + (b > ? b : 0),0);
 }
+
